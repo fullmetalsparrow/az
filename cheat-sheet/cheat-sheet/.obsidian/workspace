@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d2f53b97fe2a8a68",
+        "id": "1e9c3a7632c4ef6f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "markdown/basic.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "markdown/basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "markdown/basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "markdown/basic.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,9 +120,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d2f53b97fe2a8a68",
+  "active": "1e9c3a7632c4ef6f",
   "lastOpenFiles": [
-    "pager/less.md",
-    "markdown/basic.md"
+    "markdown/basic.md",
+    "git/ssh.md",
+    "pager/less.md"
   ]
 }
