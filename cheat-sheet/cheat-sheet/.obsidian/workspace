@@ -7,8 +7,12 @@
         "id": "1e9c3a7632c4ef6f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "openssl/openssl-selfsign-verify.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -57,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200.5
   },
   "right": {
     "id": "27e118e2d75b7399",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "openssl/openssl-selfsign-verify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "openssl/openssl-selfsign-verify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "openssl/openssl-selfsign-verify.md"
+              }
             }
           }
         ]
@@ -122,8 +130,15 @@
   },
   "active": "1e9c3a7632c4ef6f",
   "lastOpenFiles": [
+    "openssl/openssl-selfsign-recipe.md",
+    "openssl/openssl-selfsign-verify.md",
+    "openssl/scripts/genenc.sh.md",
+    "openssl/scripts/genssl.sh.md",
+    "redirection/redirection.md",
+    "redirection/EOF.md",
+    "openssl/methodology.md",
     "markdown/basic.md",
-    "git/ssh.md",
-    "pager/less.md"
+    "pager/less.md",
+    "git/ssh.md"
   ]
 }
