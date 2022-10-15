@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "openssl/openssl-selfsign-verify.md",
+            "file": "openssl/openssl-selfsign-recipe.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "openssl/openssl-selfsign-verify.md",
+                "file": "openssl/openssl-selfsign-recipe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "openssl/openssl-selfsign-verify.md",
+                "file": "openssl/openssl-selfsign-recipe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "openssl/openssl-selfsign-verify.md"
+                "file": "openssl/openssl-selfsign-recipe.md"
               }
             }
           }
@@ -130,12 +130,12 @@
   },
   "active": "1e9c3a7632c4ef6f",
   "lastOpenFiles": [
+    "openssl/scripts/genssl.sh.md",
     "openssl/openssl-selfsign-recipe.md",
+    "redirection/EOF.md",
     "openssl/openssl-selfsign-verify.md",
     "openssl/scripts/genenc.sh.md",
-    "openssl/scripts/genssl.sh.md",
     "redirection/redirection.md",
-    "redirection/EOF.md",
     "openssl/methodology.md",
     "markdown/basic.md",
     "pager/less.md",

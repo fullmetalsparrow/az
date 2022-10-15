@@ -24,7 +24,7 @@ done
 ### Create the CA Certificate Config
 ---
 ``` bash
-$ cat << EOF > /etc/ssl/config/root.cnf
+$ cat << "EOF" > /etc/ssl/config/root.cnf
 
 ####################################################################
 [ ca ]
@@ -146,7 +146,7 @@ EOF
 ### Create the Intermediate CA Config
 ---
 ``` bash
-$ cat << EOF > /etc/ssl/config/intermediate.cnf
+$ cat << "EOF" > /etc/ssl/config/intermediate.cnf
 
 ####################################################################
 [ ca ]
@@ -252,6 +252,7 @@ issuerAltName=issuer:copy
 
 
 [ v3_intermediate_ca ]
+
 subjectKeyIdentifier = hash
 authorityKeyIdentifier = keyid:always,issuer
 basicConstraints = critical,CA:true,pathlen:0
@@ -269,7 +270,7 @@ EOF
 ### Create the Server Certificate Config
 ---
 ``` bash
-$ cat << EOF > /etc/ssl/config/ext/server.cnf
+$ cat << "EOF" > /etc/ssl/config/ext/server.cnf
 
 basicConstraints = CA:FALSE
 nsCertType = server
@@ -283,15 +284,18 @@ extendedKeyUsage = serverAuth
 [alt_names]
 # IP.1 = 192.168.0.114 # TODO: change to an applicable value
 # IP.2 = 10.0.2.15 # TODO: change to an applicable value
-# DNS.1 = server.example.com # TODO: change to an applicable value
+# DNS.1 = *.example.com # TODO: change to an applicable value
+# DNS.2 = example.com # TODO: change to an applicable value
 EOF
 ```
+*==The above config is using a wildcard SAN for the DNS values, but can be changed to a single server==*
+
 
 
 ### Create the Client Certificate Config
 ---
 ``` bash
-$ cat << EOF > /etc/ssl/config/ext/client.cnf
+$ cat << "EOF" > /etc/ssl/config/ext/client.cnf
 
 basicConstraints = CA:FALSE
 nsCertType = client, email
@@ -336,7 +340,7 @@ $ openssl req \
 $ openssl genpkey \
 	-algorithm RSA \
 	-pkeyopt rsa_keygen_bits:2048 \
-	-passout file:/etc/ssl/intermediate/secret/intermediate.enc
+	-pass file:/etc/ssl/intermediate/secret/intermediate.enc
 	-out /etc/ssl/intermediate/private/intermediate.key
 ```
 *Output is in PKCS #8 format*
@@ -382,7 +386,7 @@ $ cat /etc/ssl/intermediate/certs/intermediate.crt /etc/ssl/root/certs/root.crt 
 $ openssl genpkey \
 	-algorithm RSA \
 	-pkeyopt rsa_keygen_bits:2048 \
-	-passout file:/etc/ssl/server/secret/server.enc \
+	-pass file:/etc/ssl/server/secret/server.enc \
 	-out /etc/ssl/server/private/server.key
 ```
 *Output is in PKCS #8 format*
