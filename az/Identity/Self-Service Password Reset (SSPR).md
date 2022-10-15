@@ -1,0 +1,4 @@
+- SSPR requires the P1 Active Directory (AD) license or Microsoft 365 Apps for Business license
+- SSPR can perform password writeback to on-premises domain controllers in a hybrid environment through the use of Azure AD Connect or Azure Cloud Sync
+- SSPR can be enabled for all AD tenant users, disabled for all AD tenant users, or enabled for a specific AD security group
+- SSPR minimum required multi-factor authentication (MFA) methods can be enabled or disabled per organizational policy

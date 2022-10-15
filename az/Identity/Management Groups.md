@@ -1,0 +1,2 @@
+- Management groups are used to group [[Subscriptions]] in order to apply governance conditions
+- Subscriptions within a management group inherit all governance conditions applied to the management group

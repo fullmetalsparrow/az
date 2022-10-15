@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "701d3a15051a10da",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ef496b6fe1af849",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Storage/Azure Storage/Shared Access Signature (SAS).md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3e9cd6c79f0c5156",
+    "type": "split",
+    "children": [
+      {
+        "id": "c34987b218840123",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f8207c0eb10c961",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "557c56bee1c3d56e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4431bb01bbe25a3d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 322.5
+  },
+  "right": {
+    "id": "6f26061e5803f861",
+    "type": "split",
+    "children": [
+      {
+        "id": "872b387c6eaaa424",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "745cbf1798deb690",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Storage/Azure Storage/Shared Access Signature (SAS).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8e0f202de2ad33e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Storage/Azure Storage/Shared Access Signature (SAS).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "edc4f8e107634791",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0763797ecd1975da",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Storage/Azure Storage/Shared Access Signature (SAS).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1ef496b6fe1af849",
+  "lastOpenFiles": [
+    "Identity/Azure Active Directory (AD)/Definitions.md",
+    "Storage/Azure Storage/Shared Access Signature (SAS).md",
+    "Storage/Azure Storage/Definitions.md",
+    "Storage/Storage Accounts.md",
+    "Storage/Azure Storage/Containers.md",
+    "Storage/Azure Storage/Stored Access Policy.md",
+    "Compute/Virtual Machines (VM)/Disks.md",
+    "Storage/Replication Strategies.md",
+    "Storage/Azure Storage/Blobs.md",
+    "Network/Azure Domain Name System (DNS)/Azure Storage.md"
+  ]
+}
