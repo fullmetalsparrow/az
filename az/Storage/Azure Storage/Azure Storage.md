@@ -3,7 +3,8 @@
 
 - Azure Storage encrypts all data-at-rest using AES-256 Storage Service Encryption (SSE) by default
 - Azure Storage creates two 512-bit root access keys for every created [[Storage Accounts]].
-	- *If using Azure Key Vault to store access keys, the storage account and key vault must be in the same Azure region*
+	- *If using Azure Key Vault to store access keys, the storage account and key vault must be in the same Azure region.*
+	- *If using personally-generated keys, Azure requires at least 2048-bit key length for public-private key pairs.*
 - Azure Storage can encrypt data-in-transit using Client-Side Encryption, HTTPS, or Server Message Block (SMB) 3.0.
 - Azure Storage data can be accessed via a URL using HTTP/HTTPS
 - Azure Storage does not support SSL for custom domain names.

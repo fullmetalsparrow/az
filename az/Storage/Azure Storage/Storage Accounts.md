@@ -1,6 +1,6 @@
 ### Storage Account
 ---
-1. A container for grouping Azure Storage ([[Storage/Azure Storage/Definitions]]) services
+1. A container for grouping Azure Storage ([[az/Storage/Azure Storage/Azure Storage]]) services
 2. An Azure resource
 
 - Storage account names must be globally unique in Azure

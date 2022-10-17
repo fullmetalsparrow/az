@@ -8,5 +8,5 @@
 ![[azure_file_sync.png]]
 *Azure File Sync*
 
-*(see [[Storage/Azure Files/Definitions]] for more information on terminology)*
+*(see [[Azure Files]] for more information on terminology)*
 

@@ -1,7 +1,7 @@
 ### CNAME Records
 ---
-- Use CNAME records to point to custom domains in Azure Storage
-- Use *asverify* to avoid downtimes in updating records
+- Use CNAME records to point to custom domains in [[az/Storage/Azure Storage/Azure Storage]].
+- Use *asverify* to avoid downtimes in updating records.
 
 | CNAME record | Target |
 | --- | --- |

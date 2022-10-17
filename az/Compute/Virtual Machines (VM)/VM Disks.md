@@ -1,0 +1,6 @@
+- Azure VM's have an OS disk (C:\\) and a temp disk (D:\\).
+	- Azure VM's have 1+ data disks.
+	- Azure VM's are stored using Virtual Hard Disks (VHDs), which are page [[Blobs]].
+	- Azure VM's temp disk stores the pagefile (swap partition).
+- Azure VM's have an OS disk (C:\\) has a max capacity of 2TB.
+- Azure VM OS and data disks can be secured using Azure Disk Encryption.

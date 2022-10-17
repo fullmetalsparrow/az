@@ -1,0 +1,1 @@
+- Azure VM's default network security settings allow unrestricted outbound requests and restrict inbound requests to the Virtual Network (vnet).

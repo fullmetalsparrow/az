@@ -1,0 +1,2 @@
+- Compute expenses are priced on a per-hous basis but billed on a per-minute basis.
+- VM instances can be reserved upfront for 1-3 years for a 72% price savings.

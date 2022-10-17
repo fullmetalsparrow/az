@@ -1,1 +1,0 @@
-- OS and data disks can be secured using Azure Disk Encryption
