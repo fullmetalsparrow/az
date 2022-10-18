@@ -18,3 +18,8 @@
 
 ### Fault Domain
 	A group of VM nodes that share a common set of hardware that share a single point of failure.
+
+
+### Availability Set Restore
+---
+![[avail_set_restore.png]]

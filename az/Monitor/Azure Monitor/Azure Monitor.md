@@ -6,7 +6,7 @@
 
 ### Logs
 	A recording of time-stamped information about changes made to resources.
-*Log data is organized in table records and store in a [[Log Analytics Workspace]].*
+*Log data is organized in table records and stored in a [[Log Analytics Workspace]].*
 
 ### Platform Logs
 	A log that provides diagnostic and auditing information for Azure resources.

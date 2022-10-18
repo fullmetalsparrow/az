@@ -4,3 +4,5 @@
 	- Azure VM's temp disk stores the pagefile (swap partition).
 - Azure VM's have an OS disk (C:\\) has a max capacity of 2TB.
 - Azure VM OS and data disks can be secured using Azure Disk Encryption.
+- Azure VM data disks require the use of the `Update-AzVM` command when transferring or exchanging data disks to a new VM.
+	- *This does ==NOT== require the VM to be powered down and the data within the disk will be inaccessible until remounted.*

@@ -14,6 +14,6 @@ Each role is defined by a list of `Actions`, `NotActions`, `DataActions`, and `N
 
 Effective permissions are determined by subtracting the `NotActions` operations from the `Actions` operations.
 
-Role assignments ([[Identity/Azure Role-Based Access Control (RBAC)/Definitions]]) are reviewable through the [[Activity Log]].
+Role assignments ([[RBAC]]) are reviewable through the [[Activity Log]].
 
 Full list located in Microsoft reference documentation [here](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)

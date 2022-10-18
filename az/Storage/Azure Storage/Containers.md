@@ -1,3 +1,4 @@
+![[az_container.png]]
 - Containers can have an unlimited amount of [[Blobs]].
 - Container access methods:
 	1. Private

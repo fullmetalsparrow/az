@@ -14,5 +14,6 @@
 	The boundary for the level of access that is requested by the security principal.
 	ex.: management group, subscription, resource group, resource.
 
-### Assignment
+### Role Assignment
 	The application of a role definition to a security principal at a specified scope.
+>*Role assignments on resource groups are kept when migrating subscriptions, but orphaned on individuals resources.*

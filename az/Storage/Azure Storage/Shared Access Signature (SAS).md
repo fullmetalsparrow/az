@@ -2,7 +2,7 @@
 	A Uniformed Resource Identifier (URI) that grants restricted access rights to Azure Storage resources.
 
 - SAS are secured through the storage account keys or Azure AD credentials.
-	- *Only way to revoke a SAS token without a [[Stored Access Policy]] is to regenerate the storage account keys.*
+	- *Only way to revoke a SAS token without a [[Stored Access Policy (SAP)]] is to regenerate the storage account keys.*
 	- *SAS's secured through Azure AD credentials are called **user delegation SAS's** ([[Blobs]] level only)*
 
 

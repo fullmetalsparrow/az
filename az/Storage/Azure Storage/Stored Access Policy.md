@@ -1,2 +1,0 @@
-- Stored Access Policies can be associated with a service [[Shared Access Signature (SAS)]] to provide access control and expiration at the [[Containers]] level.
-- Stored Access Policies can be associated with up to `(5)` active SAS's.

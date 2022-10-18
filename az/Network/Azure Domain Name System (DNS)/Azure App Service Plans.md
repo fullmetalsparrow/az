@@ -1,1 +1,0 @@
-- [[az/Compute/Azure App Services/Azure App Service Plans]] require a paid App Service Plan tier for custom DNS names.
