@@ -19,3 +19,9 @@
 
 ### Default Node Pool
 	The initial number of nodes and sizes defined for an AKS cluster that run the agent nodes.
+
+
+### AKS Nuances
+---
+> - *`az aks update` sets configuration settings on clusters.*
+> - *`az aks upgrade` upgrades the Kubernetes service version.*

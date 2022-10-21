@@ -20,15 +20,14 @@
 ### Action Group
 	A collection of notification preferences made by the subscription owner.
 
-- Action group notifications can be:
-	1. E-mail to Azure AD members.
-	2. E-mail, SMS, Push, or Voice.
 - Action group actions can be:
-	1. Automated runbook.
-	2. Azure Function.
-	3. ITSM.
-	4. Logic App.
-	5. Webhook.
+	1. E-mail notification to Azure AD members.
+	2. E-mail, SMS, Push, or Voice notification.
+	3. Automated runbook.
+	4. Azure Function.
+	5. ITSM.
+	6. Logic App.
+	7. Webhook.
 
 ### Webhook
 	A HTTP/HTTPS endpoint that allows external applications to communicate.

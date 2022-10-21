@@ -15,3 +15,8 @@
 - Azure Backup automatically allocates and manages backup storage.
 - Azure Backup is billed on a consumption basis.
 - Azure Backup can be used with Local Redudant Storage (LRS) or Geographic Redundant Storage (GRS).
+- Azure Backup retention periods:
+	1. *Default: 30 days.*
+	2. *Max: 9,999 days.*
+	3. *Min: 7 days.*
+	4. *Soft delete: 14 days.*

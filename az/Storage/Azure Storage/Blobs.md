@@ -12,7 +12,7 @@ Blob storage costs are tiered based on rate of access:
 	1. Hot (frequent acces; default)
 	2. Cool (stored 30+ days with infrequent access)
 	3. Archive (stored 180+ days with seldom access)
-
+		- *It may take up to (**15**) hours to upgrade archive to cool tier for ready access.*
 *==Blobs will automatically **downgrade** tiers if conditions are met to save costs==*
 
 

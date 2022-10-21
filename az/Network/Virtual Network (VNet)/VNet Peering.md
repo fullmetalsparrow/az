@@ -10,3 +10,11 @@
 - VNet peering traffic is kept on the private Microsoft backbone network
 - VNet peering can access on-premises resources via Gateway Transit through the [[VPN Gateway]] in the hub vnet's gateway subnet.
 	- *Gateway Transit is supported in both regional and global vnet peers.*
+
+
+### VNet Peering Example
+---
+__Hub vnet:__ VN02.
+__Spoke vnets:__ VN01, VN03.
+
+![[vnet_peer_example1.png]]

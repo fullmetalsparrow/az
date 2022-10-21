@@ -1,0 +1,1 @@
+- VNet address space can ==ONLY== be changed by deleting all subnets and then rebuilding the vnet.

@@ -14,7 +14,8 @@
 
 
 - Storage accounts can have an unlimited amount of [[Containers]].
-- Storage accounts can have data transferred between on-premises and Azure using the PowerShell command: AzCopy.
+- Storage accounts can have data transferred between on-premises and Azure using the PowerShell command: `AzCopy`.
+	- *`AzCopy` can be used with [[Azure AD]] credentials for transfers to [[Blobs]] storage, Azure Queue storage, or table storage.*
 
 - Storage account have an "Enable large file shares" option that provides up to 100 TiB of storage with the following limitations:
 	1. Upgrades to large file shares are permanent.
