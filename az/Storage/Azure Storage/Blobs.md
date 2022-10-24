@@ -19,3 +19,8 @@ Blob storage costs are tiered based on rate of access:
 ### Blob Access
 ---
 URI for a blob looks like `https://myaccount.blob.core.windows.net/mycontainer/myblob` or `https://myaccount.blob.core.windows.net/mycontainer/myvirtualdirectory/myblob`
+
+
+### Blob Nuances
+---
+> - *Rehydrating a blob from Archive using a Copy Blob operation will create a standalone copy of the blob and leave the original unmodified in the Archive tier.*

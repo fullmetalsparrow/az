@@ -10,6 +10,7 @@
 - `BlobBlockStorage` only support premium [[Storage Accounts]] for LRS or GRS.
 - Block [[Blobs]] (content, metadata, versioning) are asynchronously replicated based on [[Containers]] rules.
 - Blob versioning must be enabled on both the source and destination [[Storage Accounts]].
+	- *Blob versioning allows restoring blobs to previous versions (think Git).*
 - Blob change feeds only need to be enabled on the source storage account.
 - Blob storage must be in either the hot or cool tier for both the source and destination storage accounts.
 - Blob snapshots are unsupported.

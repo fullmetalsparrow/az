@@ -22,3 +22,8 @@
 		2. *Client IP and Protocol.*
 		3. *None.*
 - Azure Load Balancer can be used with Network Address Translation (NAT) rules.
+
+
+### Azure Load Balancer Nuances
+---
+> - *Azure Load Balancers ==CANNOT== be migrated once created.*

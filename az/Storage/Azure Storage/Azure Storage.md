@@ -7,4 +7,4 @@
 	- *If using personally-generated keys, Azure requires at least 2048-bit key length for public-private key pairs.*
 - Azure Storage can encrypt data-in-transit using Client-Side Encryption, HTTPS, or Server Message Block (SMB) 3.0.
 - Azure Storage data can be accessed via a URL using HTTP/HTTPS
-- Azure Storage does not support SSL for custom domain names.
+- Azure Storage does ==NOT== support SSL for custom domain names.

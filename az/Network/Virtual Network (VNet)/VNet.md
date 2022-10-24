@@ -1,1 +1,2 @@
 - VNet address space can ==ONLY== be changed by deleting all subnets and then rebuilding the vnet.
+- VNets can ==ONLY== be migrated within the same [[Subscriptions]].
