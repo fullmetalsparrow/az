@@ -14,7 +14,7 @@
 
 
 - Storage accounts can have an unlimited amount of [[Containers]].
-- Storage accounts can have data transferred between on-premises and Azure using the PowerShell command: `AzCopy`.
+- Storage accounts can have data transferred between on-premises and Azure as well as different regional storage accounts using the PowerShell command: `AzCopy`.
 	- *`AzCopy` can be used with [[Azure AD]] credentials for transfers to [[Blobs]] storage, Azure Queue storage, or table storage.*
 
 - Storage account have an "Enable large file shares" option that provides up to 100 TiB of storage with the following limitations:
@@ -22,4 +22,10 @@
 	2. Accounts upgraded cannot be replicated using a GRS offering.
 	3. Azure File service connections will fail without encryption.
 
+
+### Storage Account Nuances
+---
+> - *VM diagnostic logs are not supported in premium storage accounts.*
+> - *Storage accounts can ==ONLY== be moved between subscriptions and resource groups.*
+> - *GPv1 and Blob Storage accounts can be irrevocably upgraded to GPv2.*
 

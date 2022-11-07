@@ -16,3 +16,10 @@
 	6. *AzureTrafficManager*
 - NSG have (`3`) unchangeable inbound rules for access within the virtual network (vnet) and dropping all other traffic.
 - NSG have (`3`) unchangeable outbound rules for access within the vnet, as well as the Internet, and dropping all other traffic.
+
+
+### Application Security Group Nuances
+---
+> - *==CANNOT== add network interfaces from different virtual networks to the same ASG.*
+> - *==ALL== network interfaces for both the source and destination application security groups need to exist in the same virtual network.*
+

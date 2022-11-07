@@ -20,6 +20,7 @@
 ---
 > - *Azure Portal and Azure PowerShell can only migrate LRS to GRS variants.*
 > - *Live migrations are not support for [[Azure Files]] Network File Shares (NFS) version 4.1.*
+> - *ZRS __synchronously__ replicates data and LRS/GRS __asynchronously__ replicates data.*
 
 
 

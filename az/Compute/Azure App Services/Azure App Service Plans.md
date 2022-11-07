@@ -17,3 +17,12 @@
 - App Service Plans can scale up or scale out:
 	1. Scale Up: upgrading to a higher price tier.
 	2. Scale Out: increase number of VM instances.
+
+
+
+### App Service Plan Nuances
+---
+> - *Both Windows and Linux platform plans support PHP and .NET Core runtime stacks.*
+> - *ASP .Net 4.7 runtime stack is only supported on the Windows platform.*
+> - *Ruby 2.6 runtime stack is only supported on the Linux platform.*
+> - *There are no restrictions on custom domain names based on pricing tier.*

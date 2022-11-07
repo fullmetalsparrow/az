@@ -1,7 +1,7 @@
 ![[aks_summary.png]]
 - Pods are networked via:
-	1. Cluster IP's: access for other internal applications.
-	2. NodePort: direct access using a port and IP mapping.
+	1. Cluster IP's: private access for other internal applications.
+	2. NodePort: public, direct access using a port and IP mapping.
 	3. LoadBalancer: internal or external.
 	4. ExternalName: access using DNS.
 
@@ -25,3 +25,4 @@
 ---
 > - *`az aks update` sets configuration settings on clusters.*
 > - *`az aks upgrade` upgrades the Kubernetes service version.*
+> - *AKS can be authenticated to via OAuth 2.0.*

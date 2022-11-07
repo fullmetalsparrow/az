@@ -26,4 +26,5 @@
 
 ### Azure Load Balancer Nuances
 ---
-> - *Azure Load Balancers ==CANNOT== be migrated once created.*
+> - *All load balancer frontends and their backend instances ==MUST== be in a single virtual network.*
+> - *==ONLY== (`1`) public load balancer and (`1`) internal load balancer per VM availability set.*

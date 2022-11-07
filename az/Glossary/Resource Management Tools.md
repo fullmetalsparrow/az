@@ -18,6 +18,11 @@
 - Uses BASH syntax
 
 
+### AzCopy
+---
+- A PowerShell cmdlet that copies [[Blobs]] and/or files to [[Storage Accounts]]. 
+
+
 ### Azure Resource Manager (ARM)
 ---
 - Deploy, update, and delete resources in resource groups using JSON or BICEP declarative templates

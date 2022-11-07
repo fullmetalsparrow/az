@@ -68,3 +68,7 @@ New-AzDnsRecordSet -ZoneName contoso.com -ResourceGroupName "MyAzureResourceGrou
 2. Provide lifecycle tracking and automatic updating on target resources.
 3. Support *A*, *AAAA*, and *CNAME* records.
 
+
+### Azure DNS Nuances
+---
+> - *Importing DNS zone records from on-prem to a [[Subscriptions]] is ==ONLY== supported in Azure CLI.*

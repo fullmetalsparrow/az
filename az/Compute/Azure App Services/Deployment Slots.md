@@ -11,3 +11,7 @@
 ### Settings Not Swapped During Transition
 ---
 ![[app_svc_slot_spec.png]]
+
+### Deployment Slots Nuances
+---
+> - *Traffic can be redirected to 1+ deployment slots that are not the production slot.*

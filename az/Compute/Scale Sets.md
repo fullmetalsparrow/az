@@ -7,3 +7,9 @@
 - Scale sets support true auto-scaling.
 	1. Schedule-Based: for peak demand times.
 	2. Metric-Based: scale based on performance thresholds.
+
+
+
+### Scale Sets Nuances
+---
+> - *Automatic OS upgrades on Vmss happen to 20% of all VM's simulataneously (at least 1).*

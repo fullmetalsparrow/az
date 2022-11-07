@@ -7,3 +7,8 @@
 - Azure VM data disks require the use of the `Update-AzVM` command when transferring or exchanging data disks to a new VM.
 	- *This does ==NOT== require the VM to be powered down and the data within the disk will be inaccessible until remounted.*
 - Azure VM disks are still persisted after the VM is deleted.
+
+
+### VM Disks Nuance
+---
+> - *VM disks ==MUST== be in the VHD format to be templated.*

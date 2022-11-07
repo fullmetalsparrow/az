@@ -17,3 +17,9 @@
 
 ### Server Endpoint
 	A specific location on an Azure File Sync registered server.
+
+
+
+### Azure Files Nuances
+---
+> - *Azure FileStorage accounts ==ONLY== support LRS or ZRS.*
